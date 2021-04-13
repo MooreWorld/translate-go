@@ -5,7 +5,7 @@ import (
 	"translate-go/tool"
 )
 
-// 服务地址: localhost + 端口号
+// 服务地址: localhost + 端口号, API在对应的 routers.InitRouter() 中注册
 const PORT = ":8081"
 
 func main() {
